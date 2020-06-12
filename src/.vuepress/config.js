@@ -14,7 +14,9 @@ module.exports = {
       ['meta', { property: 'og:title', content: 'コンピュータ研究部 - 講義資料' }],
       ['meta', { property: 'og:locale', content: 'ja' }],
       ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { property: 'og:url', content: 'https://conken-docs.netlify.app/' }],
       ['meta', { property: 'og:site_name', content: 'コンピュータ研究部 - 講義資料' }],
+      ['meta', { property: 'og:image', content: 'https://hackz.team/images/student-group/computer-kenkyubu.jpg'}]
     ],
     themeConfig: {
       logo: '/logo.png',
