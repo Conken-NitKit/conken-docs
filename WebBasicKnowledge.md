@@ -20,20 +20,37 @@
 
 ### 骨組みを作る「HTML」
 Webページを作るために最低限用意しなければならないのがHTMLファイルです。基本的に1枚のHTMLファイルが，1枚のWebページになります。
-ページに掲載するテキストや画像の情報に**タグ付け(役割を記載)して**，**構造化する**ことが主な役割です。HTMLの拡張子は「.html」または「.htm」です。
+ページに掲載するテキストや画像の情報に**タグ付け(役割を記載)して**，**構造化する**ことが主な役割です。HTMLの拡張子は「.html」です。
+
+``` html
+<h1>タイトル</h1>
+<h3>見出し</h3>
+<p>テキストテキスト</p>
+<input />
+<button>クリック!</button>
+```
+
+<center style="margin:8px 0;">↓ 表示結果</center>
+<div style="border:2px groove #888;border-radius: 24px;padding: 16px 24px;margin-bottom:48px;">
+  <h1 style="margin:4px !important;padding:4px !important;">タイトル</h1>
+  <h3 style="margin:8px 4px !important;padding:4px !important;">見出し</h3>
+  <p style="margin:4px !important;padding:4px">テキストテキスト</p>
+  <input style="margin:6px;padding:4px;"/>
+  <button style="cursor: pointer;">クリック!</button>
+</div>
 
 #### よく使われるタグ
 タグ | 説明 | 具体例
 :--: | :--: | :--:
-`<h1>` | 見出し | <h1>見出し1</h1>
-`<p>` | 段落 | <p>段落段落段落段落段落段落段落段落段落</p>
-`<input>` | 入力フォーム | <input placeholder="ここに文字を入力"></input>
+`<h1>` | 見出し | <h1 style="margin:4px !important;padding:4px !important;">見出し1</h1>
+`<p>` | 段落 | <p style="margin:4px !important;padding:4px">段落段落段落段落段落段落段落段落段落</p>
+`<input>` | 入力フォーム | <input placeholder="ここに文字を入力" style="padding:4px;"></input>
 `<button>` | ボタン | <button style="cursor: pointer">クリックできますよ</button>
 `<a>`  | 任意のサイトへのリンク | <a href="#">指定したサイトに飛べます</a>
 
 
 ### レイアウトを調整する「CSS」
-HTMLには掲載するテキストや画像などの「コンテンツ」を構造化して，書き表す機能はありますが，ページがWebブラウザに表示するときの「テキストの色」「背景色」「レイアウト」などを調整する機能はありません。
+HTMLには掲載するテキストや画像などの「コンテンツ」を構造化して，書き表す機能はありますが，ページをWebブラウザに表示するときの「テキストの色」「背景色」「レイアウト」などを調整する機能はありません。
 読みやすく，見た目もかっこいいWebページを作るにはHTMLをレイアウトする為の**スタイルシート**が必要です。そして，このスタイルシートを作成する為の言語が**CSS**です。
 
 下の2枚の画像は[Qiita](https://qiita.com/kubo_programmer)と呼ばれるプログラミングに関するWebサイトの写真です。
@@ -68,4 +85,4 @@ HTMLとCSSだけではこういった動的なWebページを作成すること�
 
 - Webサイトとは **「ひとまとまりのWebページ」**
 - Webページとは **Webブラウザで一度に表示される画面**
-- Webサイトは **骨組みを作る「HTML」**, **レイアウトを調整する「CSS」**, **動きを加える「JavaScript」** などのファイルによって構成される。
+- Webページは **骨組みを作る「HTML」**, **レイアウトを調整する「CSS」**, **動きを加える「JavaScript」** などのファイルによって構成される。
