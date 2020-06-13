@@ -27,7 +27,7 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            '/1',
+            '/WebBasicKnowledge',
             '/2',
             '/3',
             '/4',
