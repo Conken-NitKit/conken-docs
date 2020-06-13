@@ -28,7 +28,7 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             '/WebBasicKnowledge',
-            '/2',
+            '/ServerClient',
             '/3',
             '/4',
             '/5',

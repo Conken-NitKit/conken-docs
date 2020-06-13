@@ -1,4 +1,5 @@
 # 基本知識 (Web編)
+<p style="margin-top:6px !important;color: #999">© 2020 Kubota Hideya All Rights Reserved. </p>
 
 ## Webサイトとは
 「Webサイト」とは，ある組織や個人がインターネット上に公開する，**ひとまとまりのWebページ** のことを単に指します。Webサイトは単に「サイト」「ホームページ」と呼ばれることがあり，ほとんどの同じような意味で使われます。
