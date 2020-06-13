@@ -1,9 +1,15 @@
 {
-  "devDependencies": {
-    "vuepress": "^1.0.0-rc.1"
-  },
+  "name": "conken-docs",
+  "version": "1.0.0",
+  "description": "A conken documents project",
+  "author": "hideya kubota",
+  "license": "MIT",
+  "private": true,
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "vuepress": "^0.10.2"
   }
 }
