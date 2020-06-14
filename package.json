@@ -11,5 +11,9 @@
   },
   "devDependencies": {
     "vuepress": "^0.10.2"
+  },
+  "dependencies": {
+    "js-yaml": "^3.14.0",
+    "string": "^3.3.3"
   }
 }
