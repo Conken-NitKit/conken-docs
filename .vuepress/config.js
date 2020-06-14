@@ -29,7 +29,7 @@ module.exports = {
           children: [
             '/WebBasicKnowledge',
             '/ServerClient',
-            '/3',
+            '/NetworkBasicKnowledge',
             '/4',
             '/5',
             '/6',

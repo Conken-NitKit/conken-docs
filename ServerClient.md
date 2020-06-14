@@ -1,4 +1,4 @@
-# クライアントとサーバーの関係性
+# クライアントとサーバー
 <p style="margin-top:6px !important;color: #999">© 2020 Kubota Hideya All Rights Reserved. </p>
 
 ## クライアントとサーバーの定義
