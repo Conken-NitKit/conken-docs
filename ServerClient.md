@@ -29,7 +29,7 @@
 **(3) サーバーは(2)で行なった処理結果をクライアントに返す。**<br>
 **(4) クライアントは処理の結果を受け取る。**<br>
 
-// ここにはスライドが入ります
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQyKdYFcL2kb5LVNUQcDDosfwMCHs7kKPuJtvDPGU2xkqcwHv9nblcY1lstEWaE3wS92dcUG2MbfzyY/embed?start=false&loop=false&delayms=30000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="margin:18px 0;width: 95%; height:420px;"></iframe>
 
 このようにサーバーとクライアントで構成されているシステムのことを **「クライアント/サーバーシステム」** と言います。クライアント/サーバーシステムでは**サーバーを中心としてデータを一元的に，容易に管理できる** ことから多くのコンピュータシステムで採用されています。
 
