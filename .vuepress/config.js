@@ -23,14 +23,14 @@ module.exports = {
       sidebar: [
         '/',
         {
-          title: 'インターネット',
+          title: 'インターネットの仕組み',
           collapsable: true,
           sidebarDepth: 1,
           children: [
             '/WebBasicKnowledge',
             '/ServerClient',
             '/NetworkBasicKnowledge',
-            '/4',
+            '/TCPIP',
             '/5',
             '/6',
           ]
