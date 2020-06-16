@@ -32,7 +32,7 @@ module.exports = {
             '/NetworkBasicKnowledge',
             '/TCPIP',
             '/Transport',
-            '/6',
+            '/IPAddr',
           ]
         }
       ],
