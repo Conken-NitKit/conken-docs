@@ -27,12 +27,19 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            '/WebBasicKnowledge',
             '/ServerClient',
             '/NetworkBasicKnowledge',
             '/TCPIP',
             '/Transport',
             '/IPAddr',
+          ]
+        },
+        {
+          title: 'Webを支える技術',
+          collapsable: true,
+          sidebarDepth: 1,
+          children: [
+            '/WebBasicKnowledge'
           ]
         }
       ],
