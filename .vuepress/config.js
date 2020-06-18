@@ -16,7 +16,7 @@ module.exports = {
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { property: 'og:url', content: 'https://conken-docs.netlify.app/' }],
       ['meta', { property: 'og:site_name', content: 'ConDog - コンピュータ研究部' }],
-      ['meta', { property: 'og:image', content: 'https://hackz.team/images/student-group/computer-kenkyubu.jpg'}]
+      ['meta', { property: 'og:image', content: 'https://conken-docs.netlify.app/logo.png'}]
     ],
     themeConfig: {
       logo: '/logo.png',
@@ -36,6 +36,7 @@ module.exports = {
             '/TCPIP',
             '/Transport',
             '/IPAddr',
+            '/NetworkInterface'
           ]
         },
         {
