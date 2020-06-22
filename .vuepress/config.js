@@ -36,7 +36,8 @@ module.exports = {
             '/TCPIP',
             '/Transport',
             '/IPAddr',
-            '/NetworkInterface'
+            '/NetworkInterface',
+            '/URL'
           ]
         },
         {
@@ -44,7 +45,14 @@ module.exports = {
           collapsable: true,
           sidebarDepth: 1,
           children: [
-            '/WebBasicKnowledge'
+            '/www',
+            '/WebBasicKnowledge',
+            '/WebConstructure',
+            '/WebFlow',
+            '/HTTP',
+            '/REST',
+            '/Cookie',
+            '/WebAPI'
           ]
         }
       ],
