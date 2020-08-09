@@ -1,6 +1,7 @@
 module.exports = {
     title: 'ConDog - コンピュータ研究部',
     description: 'コンピュータ研究部の講義資料です。',
+    base: '/',
     head: [
       ['link', { rel: 'icon', type: 'image/png', href: '/favicon.ico' }],
       ['link', { rel: 'icon', size: '192x192', href: '/logo.png' }],
