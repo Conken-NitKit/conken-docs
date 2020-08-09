@@ -71,4 +71,12 @@ module.exports = {
         lang: 'ja'
       }
     },
+    plugins: [
+      [
+        'vuepress-plugin-redirect',
+        {
+          locales: true,
+        },
+      ],
+    ]
   };
